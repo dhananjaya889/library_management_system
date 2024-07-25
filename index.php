@@ -1,6 +1,10 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
     <head>
+        <meta charset="utf-8">
         <title>Library Management System</title>
+        <link rel="stylesheet" href="CSS/style.css">
     </head>
 
     <body>
@@ -15,5 +19,14 @@
                 </ul>
             </div>
         </nav>
+
+        <div class="wrapper">
+            <section class="index-intro">
+                <h1>The Library Management System</h1>
+                <p>Manage the Library</p>
+            </section>
+        </div>
     </body>
 </html>
+
+<script src="Js/script.js"></script>
