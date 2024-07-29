@@ -6,19 +6,18 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
-        <div class="image">
-            
-            <?php
-            include("header.html");
-            ?>
+    <body>  
+        <div class="image1">
 
-        <div>
-            <section>
-                <h1>The Library Management System</h1>
+        <?php
+
+            include("header.html");
+
+        ?>
+        <div class="wrapper">
+                <h1 class="ind">The Library Management System</h1>
                 <p>Manage the Library</p>
-            </section>
         </div>
-    </div>
+        </div>
     </body>
 </html>

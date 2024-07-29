@@ -1,3 +1,26 @@
+
+/* index */
+.image1{
+    background-image: url(img/logo01.png);
+    height: 760px;
+    width: 1420px;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.ind{
+    font-size: 56px;
+    color: rgb(12, 13, 13);
+    background-color: rgb(188, 214, 145);
+    display: inline-block; /* Makes the background color only as wide as the text */
+    padding: 0 10px; /* Adds some padding to the sides of the text */
+}
+/* -------- */
+
+/* login / sing in */
+
 .image {
     position: relative;
     height: 760px;
@@ -16,22 +39,6 @@
     background-size: cover;
     filter: blur(5px);
     z-index: -1;
-}
-
-.wrapper ul{
-    display: flex;
-    margin: 10px;
-    padding: 10px;
-}
-
-ul{
-    margin: 40px;
-    padding: 40px;
-
-}
-
-.a{
-    background-color: black;
 }
 
 .title{
@@ -135,11 +142,13 @@ ul{
     text-align: right;
 }
 
+/*_________*/
+
 /* header */
 
 .header{
     overflow: hidden;
-    background-color: #3f4431;
+    background-color: #151710;
     padding: 20px 10px;
 }
 

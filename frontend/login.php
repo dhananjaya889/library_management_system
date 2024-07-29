@@ -10,23 +10,27 @@
 
 <body>
     <div class="image">
+
+        <?php
+
+        include("header.html");
+
+        ?>
+
         <div class="title">
-            <h1>Sign up</h1>
+            <h1>Log In</h1>
         </div>
         <div class="container">
             <div class="left"></div>
             <div class="right">
                 <div class="formBox">
                     <form>
-                        <p>Name: </p>
-                        <input type="text" name="" placeholder="Enter name">
-                        <p>Email:</p>
-                        <input type="email" name="" placeholder="Enter email">
-                        <p>Password:</p>
+                        <p>Username or Email: </p>
+                        <input type="text" name="" placeholder="Enter username or email">
+                        <p>Password: </p>
                         <input type="password" name=""  placeholder="Enter Password">
-                        <p>Conform Password: </p>
-                        <input type="password" name=""  placeholder="Re enter Password">
-                        <input type="submit" name="" value="Sign In">
+                        <input type="submit" name="" value="Login">
+                        <a href="#">Foget password? </a>
                     </form>
                 </div>
             </div>
