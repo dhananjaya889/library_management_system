@@ -30,5 +30,9 @@
             ];
             return $this->repo->insert($this->tableName, $data);
         }
+
+        public function findbyId($id){
+            return $this->repo->findById($this->tableName, $id);
+        }
     }
 ?>

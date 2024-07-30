@@ -22,5 +22,13 @@
             return $result;
         }
     
+        public function findById($tableName, $id){
+            $sql = "select * from ".$tableName." where id = ".$id;
+            $result = $this->db->query($sql);
+            return $result;
+        }
+
     }
+
+?>
     
